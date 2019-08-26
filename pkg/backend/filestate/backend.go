@@ -32,6 +32,7 @@ import (
 	_ "gocloud.dev/blob/fileblob"  // driver for file://
 	_ "gocloud.dev/blob/gcsblob"   // driver for gs://
 	_ "gocloud.dev/blob/s3blob"    // driver for s3://
+	_ "github.com/place1/k8sblob"
 
 	"github.com/pulumi/pulumi/pkg/apitype"
 	"github.com/pulumi/pulumi/pkg/backend"
